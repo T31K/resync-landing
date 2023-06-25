@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script defer src="/_vercel/insights/script.js"></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <title>Harmonize</title>
+
+  <meta name="title" content="Harmonize | Harmonize productivity">
+  <meta name="description" content="Turbocharge your workflow with seamless music controls.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://harmonize.vercel.app/">
+  <meta property="og:title" content="Harmonize | Harmonize productivity">
+  <meta property="og:description" content="Turbocharge your workflow with seamless music controls.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/T31K/harmonize-landing/master/public/meta.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://harmonize.vercel.app/">
+  <meta property="twitter:title" content="Harmonize | Harmonize productivity">
+  <meta property="twitter:description" content="Turbocharge your workflow with seamless music controls.">
+  <meta property="twitter:image"
+    content="https://raw.githubusercontent.com/T31K/harmonize-landing/master/public/meta.png">
+
+</head>
+
+<body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script>
+    if (localStorage.getItem('sidebar-expanded') == 'true') {
+      document.querySelector('body').classList.add('sidebar-expanded');
+    } else {
+      document.querySelector('body').classList.remove('sidebar-expanded');
+    }
+  </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
