@@ -24,13 +24,6 @@ function HeroHome() {
               <br />
               simplified
             </h1>
-            <p
-              className="text-xl text-gray-600 block text-left mb-8 ml-[-5px]"
-              data-aos="zoom-y-out"
-              data-aos-delay="100"
-            >
-              Control your music from anywhere, <br clasName="visible md:hidden" /> at anytime.
-            </p>
           </div>
           <div className="flex flex-col justify-start md:justify-start">
             <div
